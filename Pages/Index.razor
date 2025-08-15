@@ -1,0 +1,58 @@
+﻿@page "/"
+@using System.Net.Http.Json
+@inject HttpClient Http 
+
+<div class="app-container">
+    <div class="card">
+        <h2>Dog Viewer</h2>
+
+        @if (dogImageUrl is null)
+        {
+            <p>Carregando...</p>
+        }
+        else
+        {
+            <img src="@dogImageUrl" alt="Cachorro" />
+        }
+
+        <div class="buttons">
+            <button @onclick="LoadDogImage">Nova Imagem</button>
+            @if (dogImageUrl is not null)
+            {
+                <a href="@dogImageUrl" download="dog.jpg" target="_blank">
+                    <button class="secondary">Abrir imagem</button>
+                </a>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private string? dogImageUrl;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadDogImage();
+    }
+
+    private async Task LoadDogImage()
+    {
+        try
+        {
+            var result = await Http.GetFromJsonAsync<DogApiResponse>(
+                "https://dog.ceo/api/breeds/image/random"
+            );
+            dogImageUrl = result?.Message;
+        }
+        catch
+        {
+            dogImageUrl = null;
+        }
+    }
+
+    private class DogApiResponse
+    {
+        public string? Message { get; set; }
+        public string? Status { get; set; }
+    }
+}
