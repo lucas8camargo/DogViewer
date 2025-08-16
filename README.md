@@ -24,7 +24,7 @@ https://agreeable-smoke-0871bb610.1.azurestaticapps.net/
 ## Consumo da PI
 
 A aplicação consome o endpoint:
-``` json
+```json
 GET https://dog.ceo/api/breeds/image/random
 
 ```
