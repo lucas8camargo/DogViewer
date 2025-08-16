@@ -7,3 +7,10 @@ Um aplicativo web simples feito com **Blazor WebAssembly** que consome a API pú
 - Botão **"Nova Imagem"** para gerar outra imagem.
 - Botão **"Abrir imagem"** para abrir a imagem inteira em uma nova guia.
 - Totalmente **frontend** (não há backend).
+
+# Demonstração
+
+Site hospedado no Azure utiilizando o Azure Static Web Apps (Plano Free)
+
+https://agreeable-smoke-0871bb610.1.azurestaticapps.net/
+
