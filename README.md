@@ -21,6 +21,21 @@ https://agreeable-smoke-0871bb610.1.azurestaticapps.net/
 - HTML5 / CSS3
 - C#
 
+## Consumo da PI
+
+A aplicação consome o endpoint:
+``` json
+GET https://dog.ceo/api/breeds/image/random
+
+```
+Exemblo de resposta:
+```json
+{
+  "message": "https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg",
+  "status": "success"
+}
+```
+
 ## Como Executar
 
 1. **Clonar o repositório**
