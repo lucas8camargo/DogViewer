@@ -1,0 +1,2 @@
+C:\Users\Lucas\Documents\GitHub\DogViewer\bin\Release\net9.0\publish\segmentation-rules.json
+C:\Users\Lucas\Documents\GitHub\DogViewer\bin\Release\net9.0\publish\web.config

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\dotnet\\DogViewer\\DogViewer.csproj": {}
+    "C:\\Users\\Lucas\\Documents\\GitHub\\DogViewer\\DogViewer.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\dotnet\\DogViewer\\DogViewer.csproj": {
+    "C:\\Users\\Lucas\\Documents\\GitHub\\DogViewer\\DogViewer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\dotnet\\DogViewer\\DogViewer.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\Documents\\GitHub\\DogViewer\\DogViewer.csproj",
         "projectName": "DogViewer",
-        "projectPath": "C:\\Dev\\dotnet\\DogViewer\\DogViewer.csproj",
+        "projectPath": "C:\\Users\\Lucas\\Documents\\GitHub\\DogViewer\\DogViewer.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\dotnet\\DogViewer\\obj\\",
+        "outputPath": "C:\\Users\\Lucas\\Documents\\GitHub\\DogViewer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -62,13 +62,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )",
+              "version": "[9.0.13, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )",
+              "version": "[10.0.3, )",
               "autoReferenced": true
             }
           },
@@ -85,8 +85,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.13, 9.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.13, 9.0.13]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.8, 9.0.8]"
+              "version": "[9.0.13, 9.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.13, 9.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -94,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

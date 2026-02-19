@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3pWPg7pQZLE=",
+  "dgSpecHash": "4Lgl1zyD838=",
   "success": true,
-  "projectFilePath": "C:\\Dev\\dotnet\\DogViewer\\DogViewer.csproj",
+  "projectFilePath": "C:\\Users\\Lucas\\Documents\\GitHub\\DogViewer\\DogViewer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.8\\microsoft.aspnetcore.authorization.9.0.8.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.8\\microsoft.aspnetcore.components.9.0.8.nupkg.sha512",
@@ -28,9 +28,12 @@
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.8\\microsoft.extensions.primitives.9.0.8.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.jsinterop\\9.0.8\\microsoft.jsinterop.9.0.8.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.8\\microsoft.jsinterop.webassembly.9.0.8.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.8\\microsoft.net.illink.tasks.9.0.8.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.8\\microsoft.net.sdk.webassembly.pack.9.0.8.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.8\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.8.nupkg.sha512"
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.13\\microsoft.net.illink.tasks.9.0.13.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.3\\microsoft.net.sdk.webassembly.pack.10.0.3.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.13\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.13.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.13\\microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512"
   ],
   "logs": []
 }
